@@ -1,7 +1,7 @@
-"use client"
-
+"use client";
 
 import React from "react";
+import Image from "next/image";
 
 const Hero: React.FC = () => {
   const slide = {
@@ -13,12 +13,17 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative bg-black text-white overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-opacity-30"
-        style={{
-          backgroundImage: "url('/images/hero.avif')",
-        }}
-      ></div>
+      {/* Use Next.js Image for optimized image loading */}
+      <div className="absolute inset-0 bg-cover bg-center bg-opacity-30">
+        <Image
+          src="/images/hero1.avif"
+          alt="Hero background"
+          layout="fill"
+          objectFit="cover"
+          quality={90}
+          priority
+        />
+      </div>
       <div className="relative z-10 container mx-auto flex flex-col items-center justify-center h-screen px-6">
         <div className="text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">{slide.title}</h1>

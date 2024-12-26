@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaInstagram, FaTumblr } from "react-icons/fa";
 
 const teamMembers = [
@@ -45,7 +48,7 @@ const teamMembers = [
 
 const OurTeam: React.FC = () => {
   return (
-    <section className="py-16 bg-white text-gray-700">
+    <section className="py-16 px-5 bg-white text-gray-700">
       <div className="container mx-auto text-center">
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-gray-900">Our Team</h2>
@@ -60,10 +63,12 @@ const OurTeam: React.FC = () => {
             <div key={index} className="flex flex-col items-center text-center">
               {/* Member Image */}
               <div className="w-48 h-48 rounded-full overflow-hidden mb-6">
-                <img
+                <Image
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover"
+                  width={192} // Adjust width and height for Image component
+                  height={192}
+                  className="object-cover"
                 />
               </div>
               {/* Member Name and Position */}
@@ -79,6 +84,7 @@ const OurTeam: React.FC = () => {
                     key={i}
                     href={social.link}
                     className="text-gray-500 hover:text-gray-900"
+                    aria-label={`${member.name} ${i}`}
                   >
                     {social.icon}
                   </a>

@@ -48,11 +48,11 @@ const StatsSection: React.FC = () => {
       </div>
     </section>
     
-    <section className="grid grid-cols-1 lg:grid-cols-3">
+    <section className=" grid grid-cols-1 lg:grid-cols-3">
       {profiles.map((profile, index) => (
         <div
           key={index}
-          className={`${profile.backgroundColor} p-8 text-center flex flex-col items-center justify-between min-h-[300px]`}
+          className={`${profile.backgroundColor}  p-8 text-center flex flex-col items-center justify-between min-h-[300px]`}
         >
           <div>
             <h2 className={`text-2xl font-bold ${profile.textColor} mb-4`}>
