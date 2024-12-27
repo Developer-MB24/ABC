@@ -32,7 +32,7 @@ const Header = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h18l-1.5 9h-15L3 3zm0 0l1.5 9m9 6h-6m0 0l1.5-9m3 9l1.5-9" />
               </svg>
             </button>
-            <span className="absolute -top-2 -right-2 bg-yellow-500 text-black text-xs font-bold px-1.5 py-0.5 rounded-full">0</span>
+            {/* <span className="absolute -top-2 -right-2 bg-yellow-500 text-black text-xs font-bold px-1.5 py-0.5 rounded-full">0</span> */}
           </div>
         </div>
       </div>
