@@ -17,21 +17,22 @@ const profiles = [
       buttonStyle: "bg-black text-white",
     },
     {
-      name: "WALLACE NICHOLS",
+      name: "ANNIE BULLOCK",
       description:
         "Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an.",
-      backgroundColor: "bg-yellow-500",
-      textColor: "text-gray-900",
-      buttonStyle: "bg-transparent text-black border-2 border-black",
+      backgroundColor: "bg-white",
+      textColor: "text-gray-800",
+      buttonStyle: "bg-black text-white",
     },
     {
-      name: "MARIE DUNCAN",
+      name: "ANNIE BULLOCK",
       description:
         "Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an.",
-      backgroundColor: "bg-gray-800",
-      textColor: "text-white",
-      buttonStyle: "bg-yellow-500 text-black",
+      backgroundColor: "bg-white",
+      textColor: "text-gray-800",
+      buttonStyle: "bg-black text-white",
     },
+    
   ];
 
 const StatsSection: React.FC = () => {

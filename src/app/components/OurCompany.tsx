@@ -1,4 +1,4 @@
-"use client"; // Ensure this is added to make the component client-only
+"use client"; 
 
 import React from "react";
 import { FaCode, FaCog, FaCamera, FaDesktop, FaUsers, FaRocket, FaGem } from "react-icons/fa";

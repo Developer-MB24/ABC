@@ -12,19 +12,20 @@ const testimonials = [
     position: "Theme User",
   },
   {
-    title: "Clean & Simple",
-    text: "Detraxit periculis ex, alienum phaedrum torquatos nec eu, vis nihil expetendis in mei. Mei an pericula euripidis, hinc.",
+    title: "Beautiful Pages",
+    text: "Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.",
     image: "/np.jpg",
-    name: "Marry Wilkinson",
+    name: "Gregory Barker",
     position: "Theme User",
   },
   {
-    title: "All I Needed",
-    text: "Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum.",
+    title: "Beautiful Pages",
+    text: "Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.",
     image: "/np.jpg",
-    name: "Howard Thomas",
+    name: "Gregory Barker",
     position: "Theme User",
   },
+  
 ];
 
 const Testimonials: React.FC = () => {

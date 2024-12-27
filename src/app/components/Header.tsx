@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <h1 className="text-2xl font-bold">
-          Node<span className="text-yellow-500">.</span>
+          ABC<span className="text-yellow-500">.</span>
         </h1>
 
         {/* Navigation */}

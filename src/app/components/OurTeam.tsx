@@ -19,8 +19,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "FEDERICO HICKMAN",
-    position: "Designer",
+    name: "ERIC GRIFFIN",
+    position: "CEO",
     image: "/np.jpg",
     description:
       "Alienum phaedrum torquatos nec eu, vis mei detraxit periculis ex, nihil expetendis in mei an",
@@ -32,8 +32,8 @@ const teamMembers = [
     ],
   },
   {
-    name: "ANNIE BULLOCK",
-    position: "IT Consultant",
+    name: "ERIC GRIFFIN",
+    position: "CEO",
     image: "/np.jpg",
     description:
       "Alienum phaedrum torquatos nec eu, vis mei detraxit periculis ex, nihil expetendis in mei an",
@@ -44,6 +44,7 @@ const teamMembers = [
       { icon: <FaTumblr />, link: "#" },
     ],
   },
+  
 ];
 
 const OurTeam: React.FC = () => {

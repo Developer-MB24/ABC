@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative bg-black text-white overflow-hidden">
-      {/* Use Next.js Image for optimized image loading */}
+     
       <div className="absolute inset-0 bg-cover bg-center bg-opacity-30">
         <Image
           src="/images/hero1.avif"
