@@ -4,10 +4,10 @@ import React, { useState, useEffect } from "react";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      
       const heroHeight = document.querySelector(".hero")?.clientHeight || 0;
       if (window.scrollY > heroHeight) {
         setScrolled(true);
@@ -35,30 +35,74 @@ const Header = () => {
           ABC<span className="text-yellow-500">.</span>
         </h1>
 
+        {/* Hamburger Menu for Mobile */}
+        <button
+          className="md:hidden text-white hover:text-yellow-500 focus:outline-none"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d={mobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+            />
+          </svg>
+        </button>
+
         {/* Navigation */}
-        <nav className="hidden md:flex space-x-6">
-          <a href="#" className="hover:text-yellow-500">
+        <nav
+          className={`${
+            mobileMenuOpen ? "block" : "hidden"
+          } absolute md:static top-full left-0 w-full md:w-auto md:flex md:space-x-6 bg-black md:bg-transparent z-40`}
+        >
+          <a
+            href="#"
+            className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
+          >
             HOME
           </a>
-          <a href="#" className="hover:text-yellow-500">
+          <a
+            href="#"
+            className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
+          >
             PAGES
           </a>
-          <a href="#" className="hover:text-yellow-500">
+          <a
+            href="#"
+            className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
+          >
             BLOG
           </a>
-          <a href="#" className="hover:text-yellow-500">
+          <a
+            href="#"
+            className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
+          >
             PORTFOLIO
           </a>
-          <a href="#" className="hover:text-yellow-500">
+          <a
+            href="#"
+            className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
+          >
             SHOP
           </a>
-          <a href="#" className="hover:text-yellow-500">
+          <a
+            href="#"
+            className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
+          >
             ELEMENTS
           </a>
         </nav>
 
         {/* Icons */}
-        <div className="flex items-center space-x-4">
+        <div className="hidden md:flex items-center space-x-4">
           <button className="text-white hover:text-yellow-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"

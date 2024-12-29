@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px;
-  bottom: 10px !important; /* Adjust if needed */
+  bottom: 10px !important; 
 }
 
 .custom-pagination-bullet {
@@ -39,7 +39,7 @@ body {
 }
 
 .custom-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #fbbf24; /* Match the yellow color */
-  transform: scale(1.3); /* Slightly enlarge the active bullet */
+  background-color: #fbbf24; 
+  transform: scale(1.3); 
 }
 
