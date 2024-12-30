@@ -14,7 +14,9 @@ const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-lg font-bold text-white mb-4">ABOUT THEME HERE</h3>
+            <h3 className="text-lg font-bold text-white mb-4">
+              ABOUT THEME HERE
+            </h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Alienum phaedrum torquatos nec eu, vis detraxit periculis ex,
               nihil expetendis in mei.
@@ -27,7 +29,9 @@ const Footer: React.FC = () => {
 
           {/* Latest Posts Section */}
           <div>
-            <h3 className="text-lg font-bold text-white mb-4">LATEST POSTS HERE</h3>
+            <h3 className="text-lg font-bold text-white mb-4">
+              LATEST POSTS HERE
+            </h3>
             <ul className="text-gray-400 text-sm">
               <li className="mb-2">
                 <a href="#" className="hover:text-white">
@@ -52,7 +56,9 @@ const Footer: React.FC = () => {
 
           {/* Widget Section */}
           <div>
-            <h3 className="text-lg font-bold text-white mb-4">SOME WIDGET HERE</h3>
+            <h3 className="text-lg font-bold text-white mb-4">
+              SOME WIDGET HERE
+            </h3>
             <ul className="text-gray-400 text-sm">
               <li className="mb-2 hover:text-white">
                 <a href="#">Discover All our Amazing Services</a>
@@ -76,19 +82,17 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-bold text-white mb-4">FOLLOW US</h3>
             <div className="flex space-x-4">
-            <a href="#" className="hover:text-white">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="#" className="hover:text-white">
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a href="#" className="hover:text-white">
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-          </div>
-            <p className="text-gray-400 text-sm">
-              
-            </p>
+              <a href="#" className="hover:text-white">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+              <a href="#" className="hover:text-white">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#" className="hover:text-white">
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+            </div>
+            <p className="text-gray-400 text-sm"></p>
           </div>
         </div>
       </div>
