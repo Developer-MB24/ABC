@@ -15,7 +15,7 @@ const BlogPage = () => {
     <>
       <Header />
       <div className="bg-gray-100">
-        {/* Hero Section */}
+        {/* Hero Section blog */}
         <div
           className="relative h-96 bg-cover bg-center flex items-center justify-center text-black"
           style={{ backgroundImage: "url('/images/hero1.avif')" }}
@@ -36,13 +36,13 @@ const BlogPage = () => {
               </h2>
               <div className="space-y-6">
                 {[1, 2, 3].map((item) => (
-                  <div key={item} className="flex items-center">
+                  <div key={item} className="flex  items-center">
                     <Image
                       src="/images/hero2.avif"
                       alt="Recent Post"
                       width={60}
                       height={60}
-                      className="rounded-lg"
+                      className=" rounded-lg"
                     />
                     <div className="ml-4">
                       <Link
