@@ -95,10 +95,10 @@ const Header = () => {
             SHOP
           </Link>
           <Link
-            href="#"
+            href="/contact-us"
             className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
           >
-            ELEMENTS
+            Contact
           </Link>
         </nav>
 
