@@ -68,31 +68,31 @@ const Header = () => {
             href="/"
             className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
           >
-            HOME
+            Home
           </Link>
           <Link
             href="#"
             className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
           >
-            PAGES
+            Pages
           </Link>
           <Link
             href="/blog"
             className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
           >
-            BLOG
+            Blog
           </Link>
           <Link
             href="#"
             className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
           >
-            PORTFOLIO
+            Portfolio
           </Link>
           <Link
-            href="#"
+            href="/services"
             className="block md:inline-block px-4 py-2 md:py-0 text-white hover:text-yellow-500"
           >
-            SHOP
+            Services
           </Link>
           <Link
             href="/contact-us"

@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-[#353434] text-gray-400">
       {/* Main Footer Sections */}
-      <div className="py-10 px-5">
-        <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="py-10 h-[50vh] px-5">
+        <div className="max-w-7xl  mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4">
